@@ -23,11 +23,12 @@ GitHub 下载不顺畅时，可以在官网下载区选择本站备用下载。
 
 ## 界面展示
 
-<img src="images/appletv.jpg" alt="音屿 Apple TV 播放页，封面与同步歌词" width="720">
+<img src="images/demo-tv-playing.jpg" alt="音屿 Apple TV 播放页，示例封面、同步歌词与涟漪背景" width="720">
 
-<img src="images/iphone.webp" alt="音屿 iPhone 首页，推荐与在线榜单" width="280">
+<img src="images/demo-ios-home.webp" alt="音屿 iPhone 首页，示例曲库与原创封面" width="280">
+<img src="images/demo-ios-playing.webp" alt="音屿 iPhone 播放页，同步歌词与涟漪背景" width="280">
 
-界面示意：TV 频谱背景、iPhone 在线模式为 Pro 功能；在线榜单需自行导入兼容模块。
+截图来自应用的示例曲库，使用自制封面、合成音频和原创演示歌词。TV 和 iPhone 的播放、歌词截图采用涟漪背景；频谱背景为 Pro 功能。更多页面可在官网轮播中查看。
 
 ## 功能
 
