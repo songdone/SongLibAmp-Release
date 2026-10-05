@@ -25,7 +25,7 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 <img src="images/demo-cinematic-tv-playing.jpg" alt="音屿 Apple TV 播放页，示例封面、同步歌词与涟漪背景" width="720">
 
-<img src="images/demo-cinematic-ios-home.webp" alt="音屿 iPhone 首页，示例曲库与原创封面" width="280">
+<img src="images/demo-cinematic-ios-home-r11.webp" alt="音屿 iPhone 首页，示例曲库与原创封面" width="280">
 <img src="images/demo-cinematic-ios-playing.webp" alt="音屿 iPhone 播放页，同步歌词与涟漪背景" width="280">
 
 截图来自应用的示例曲库，使用原创专辑封面、虚构音乐人写真、合成音频和原创演示歌词。TV 和 iPhone 的播放、歌词截图采用涟漪背景；频谱背景为 Pro 功能。更多页面可在官网轮播中查看。
