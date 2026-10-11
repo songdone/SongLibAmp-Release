@@ -12,14 +12,16 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 | 平台 | 当前版本 | 系统要求 | 下载 |
 | --- | --- | --- | --- |
-| Apple TV | 1.8.34 | tvOS 18 及以上 | [SongLibAmp-tvOS-1.8.34.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.8.34-iOS-0.4.7/SongLibAmp-tvOS-1.8.34.ipa) |
-| iPhone | 0.4.7 | iOS 16.4 及以上 | [SongLibAmp-iOS-0.4.7.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.8.34-iOS-0.4.7/SongLibAmp-iOS-0.4.7.ipa) |
+| Apple TV | 1.8.48 | tvOS 18 及以上 | [SongLibAmp-tvOS-1.8.48.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.8.48-iOS-1.0.5/SongLibAmp-tvOS-1.8.48.ipa) |
+| iPhone | 1.0.5 | iOS 16.4 及以上 | [SongLibAmp-iOS-1.0.5.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.8.48-iOS-1.0.5/SongLibAmp-iOS-1.0.5.ipa) |
 
 两端均为**未签名 IPA**，需要自行签名后安装。按官网教程操作，需要 Mac、Xcode 和自己的 Apple ID；免费 Apple ID 的签名到期后需要重新签名并覆盖安装。
 
 项目仍在持续开发，功能尚不完善，可能遇到 bug。TV 端目前仅在最新一代 Apple TV 上测试，其他型号尚未验证。建议先阅读安装说明，再下载和试用。
 
-安装包统一通过本仓库的 GitHub Releases 下载。
+安装包统一通过本仓库的 GitHub Releases 下载。手机 1.0.3、1.0.4 存在启动问题，不提供安装包；请使用 1.0.5。
+
+本轮完整功能与修复见 [更新说明](CHANGELOG.md)。
 
 ## 界面展示
 
@@ -34,9 +36,9 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 - **媒体库连接**：Plex、Emby、飞牛音乐、极音乐、Navidrome / Subsonic、WebDAV。
 - **歌词与播放**：原格式播放、同步歌词、全屏歌词、歌词时间校准、待播队列；手机端支持横屏播放和睡眠定时。
-- **本机音乐**：缓存曲目、本地歌单、存储与下载管理；手机可从「文件」导入音乐。
+- **本机音乐**：缓存曲目、本地歌单、头像封面、排序与下载管理；手机支持文件夹曲库、长按多选、批量导出和清理删除。
 - **推荐与报告**：每日推荐、好久没听、时段常听和听歌报告。
-- **Pro 功能**：多库合并、频谱背景、在线发现、曲库管家。
+- **Pro 功能**：多库合并、频谱背景、在线发现、曲库管家；手机可预览更高音质候选并执行备份替换与撤销。
 
 ## 授权与音乐内容
 
