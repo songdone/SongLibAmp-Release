@@ -12,14 +12,16 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 | 平台 | 当前版本 | 系统要求 | 下载 |
 | --- | --- | --- | --- |
-| Apple TV | 1.8.48 | tvOS 18 及以上 | [SongLibAmp-tvOS-1.8.48.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.8.48-iOS-1.0.5/SongLibAmp-tvOS-1.8.48.ipa) |
-| iPhone | 1.0.5 | iOS 16.4 及以上 | [SongLibAmp-iOS-1.0.5.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.8.48-iOS-1.0.5/SongLibAmp-iOS-1.0.5.ipa) |
+| Apple TV | 1.9.0（68） | tvOS 18 及以上 | [SongLibAmp-tvOS-1.9.0.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.0-iOS-1.0.11/SongLibAmp-tvOS-1.9.0.ipa) |
+| iPhone | 1.0.11（48） | iOS 16.4 及以上 | [SongLibAmp-iOS-1.0.11.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.0-iOS-1.0.11/SongLibAmp-iOS-1.0.11.ipa) |
 
 两端均为**未签名 IPA**，需要自行签名后安装。按官网教程操作，需要 Mac、Xcode 和自己的 Apple ID；免费 Apple ID 的签名到期后需要重新签名并覆盖安装。
 
 项目仍在持续开发，功能尚不完善，可能遇到 bug。TV 端目前仅在最新一代 Apple TV 上测试，其他型号尚未验证。建议先阅读安装说明，再下载和试用。
 
-安装包统一通过本仓库的 GitHub Releases 下载。手机 1.0.3、1.0.4 存在启动问题，不提供安装包；请使用 1.0.5。
+安装包统一通过本仓库的 GitHub Releases 下载。手机 1.0.3、1.0.4 存在启动问题；1.0.6–1.0.10 在留声主题开启启动动画后存在顶部与状态栏重叠问题。这些问题版本只保留历史记录，不提供安装包；请使用 1.0.11。
+
+本次手机留声开屏修复已获用户真机确认；TV 1.9.0 已完成真机覆盖升级、正常启动及 12 项遥控用例的最终复测。系统最低版本来自安装包声明，本轮未覆盖所有最低系统与设备组合。
 
 本轮完整功能与修复见 [更新说明](CHANGELOG.md)，中间版本见 [逐版历史记录](HISTORY.md)。历史条目不附旧IPA；旧版原始包及调试符号仅在私有仓库归档。公开安装包须经过商业加固核验，调试符号不公开。
 
@@ -34,6 +36,7 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 ## 功能
 
+- **主题外观**：经典、星尘、弹性、留声；留声包含唱盘、唱臂、仪表、歌词和主题开场。
 - **媒体库连接**：Plex、Emby、飞牛音乐、极音乐、Navidrome / Subsonic、WebDAV。
 - **歌词与播放**：原格式播放、同步歌词、全屏歌词、歌词时间校准、待播队列；手机端支持横屏播放和睡眠定时。
 - **本机音乐**：缓存曲目、本地歌单、头像封面、排序与下载管理；手机支持文件夹曲库、长按多选、批量导出和清理删除。

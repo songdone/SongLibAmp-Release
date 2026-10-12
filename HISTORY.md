@@ -1,8 +1,8 @@
 # 版本沿革
 
-2026-10-11补齐历史记录。此前公开下载停在手机0.4.7／TV1.8.34，其间版本曾在本地交付与验证，未逐版公开发包。当前公开安装包为手机1.0.5／TV1.8.48。
+2026-10-11 补齐早期历史记录，2026-10-12 继续补齐留声集成与开屏修复记录。此前公开下载由手机 0.4.7／TV 1.8.34 更新至手机 1.0.5／TV 1.8.48；当前推荐安装包为[手机 1.0.11／TV 1.9.0](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.0-iOS-1.0.11)。
 
-历史条目不附安装包；可核验的原始IPA及符号在私有源码仓库按版本归档。手机0.4.10–0.4.13、1.0.1、1.0.3、1.0.4的已知故障均保留记录，不提供问题包。
+独立历史条目不附安装包；已公开的稳定组合版本保留原发行资产，可核验的中间版本原始 IPA 及符号在私有源码仓库按版本归档。手机 0.4.10–0.4.13、1.0.1、1.0.3、1.0.4 的已知故障均保留记录。手机 1.0.6–1.0.10 经后续复测，确认仅留声主题开启启动动画后存在顶部与状态栏重叠，关闭启动动画后正常；这些问题版本不提供公开安装包，修复已在 1.0.11 获用户真机确认。
 
 | 平台 / 版本 | build | 源码记录日期 | 主要变更 | 状态 |
 | --- | --- | --- | --- | --- |
@@ -33,3 +33,13 @@
 | [tvOS 1.8.45](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.8.45) | 63 | 2026-10-11 | 避免首页加载跳过主题开屏，按帧完整播放并保留Release取证 | 历史记录；后续有修复 |
 | [tvOS 1.8.46](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.8.46) | 64 | 2026-10-11 | 等待首页首帧后退场消除开屏空白，减轻星尘渲染并异步解码经典照片 | 历史记录；后续有修复 |
 | [tvOS 1.8.47](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.8.47) | 65 | 2026-10-11 | 降低电视首页大图加载的主线程开销，后台准备歌手排行与照片缓存 | 历史记录；后续有修复 |
+| [iOS 1.0.5](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.8.48-iOS-1.0.5) | 42 | 2026-10-11 | 恢复稳定启动，修正星尘口号与弹性开屏；曾获用户真机确认 | 已公开的历史稳定组合 |
+| [tvOS 1.8.48](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.8.48-iOS-1.0.5) | 66 | 2026-10-11 | 改善三主题开屏交接及首页资料准备，修正异常 MP3 时长与定位 | 已公开的历史稳定组合 |
+| [iOS 1.0.6](https://github.com/songdone/SongLibAmp-Release/releases/tag/iOS-1.0.6) | 43 | 2026-10-11 | 新增留声主题与唱盘仪表，完善收起重开、待播列表和歌词校准 | 问题记录，无安装包 |
+| [iOS 1.0.7](https://github.com/songdone/SongLibAmp-Release/releases/tag/iOS-1.0.7) | 44 | 2026-10-12 | 修正搜索输入与返回手势，完善封面补边、分享场景与可见性调度 | 问题记录，无安装包 |
+| [iOS 1.0.8](https://github.com/songdone/SongLibAmp-Release/releases/tag/iOS-1.0.8) | 45 | 2026-10-12 | 尝试调整导航安全区交接，并接入留声唱片封面处理；真机顶部问题未解决 | 问题记录，无安装包 |
+| [iOS 1.0.9](https://github.com/songdone/SongLibAmp-Release/releases/tag/iOS-1.0.9) | 46 | 2026-10-12 | 尝试恢复页面背景边界和内部停帧调度，补充布局诊断；顶部问题未闭环 | 问题记录，无安装包 |
+| [iOS 1.0.10](https://github.com/songdone/SongLibAmp-Release/releases/tag/iOS-1.0.10) | 47 | 2026-10-12 | 移除留声底栏换肤并补根布局诊断；用户复测仍出现留声开屏顶部重叠 | 问题记录，无安装包 |
+| [tvOS 1.8.49](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.8.49) | 67 | 2026-10-11 | 新增 TV 留声主题，修正抽屉首帧并补歌词校准、主题与待播入口 | 历史记录，已由 1.9.0 替代 |
+| [iOS 1.0.11](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.0-iOS-1.0.11) | 48 | 2026-10-12 | 恢复稳定根导航挂载，开屏独立接收触控；修复留声开屏顶部重叠 | 当前推荐，用户真机确认 |
+| [tvOS 1.9.0](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.0-iOS-1.0.11) | 68 | 2026-10-12 | 调整留声唱盘仪表与右栏，完善循环和字号；主题→全屏→竖向更多→列表→进度 | 当前推荐，12 项最终遥控复测及用户确认 |
