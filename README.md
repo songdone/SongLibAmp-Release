@@ -12,8 +12,8 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 | 平台 | 当前版本 | 系统要求 | 下载 |
 | --- | --- | --- | --- |
-| Apple TV | 1.9.3（71） | tvOS 18 及以上 | [SongLibAmp-tvOS-1.9.3.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.3-iOS-1.2.2/SongLibAmp-tvOS-1.9.3.ipa) |
-| iPhone | 1.2.2（61） | iOS 16.4 及以上 | [SongLibAmp-iOS-1.2.2.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.3-iOS-1.2.2/SongLibAmp-iOS-1.2.2.ipa) |
+| Apple TV | 1.9.5（73） | tvOS 18 及以上 | [SongLibAmp-tvOS-1.9.5.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.5-iOS-1.2.8/SongLibAmp-tvOS-1.9.5.ipa) |
+| iPhone | 1.2.8（67） | iOS 16.4 及以上 | [SongLibAmp-iOS-1.2.8.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.5-iOS-1.2.8/SongLibAmp-iOS-1.2.8.ipa) |
 
 两端均为**未签名 IPA**，需要自行签名后安装。按官网教程操作，需要 Mac、Xcode 和自己的 Apple ID；免费 Apple ID 的签名到期后需要重新签名并覆盖安装。
 
@@ -21,7 +21,7 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 安装包统一通过本仓库的 GitHub Releases 下载。手机 1.0.3、1.0.4 存在启动问题；1.0.6–1.0.10 在留声主题开启启动动画后存在顶部与状态栏重叠问题。这些问题版本只保留历史记录，不提供安装包；请使用最新版。
 
-本版在模拟器及本机 WebDAV / Emby 测试服务上完成写入 NAS 核对、入库、整理与撤销的自动化验证。系统最低版本来自安装包声明，本轮未覆盖所有最低系统、设备与 NAS 组合。
+本版在模拟器与本机隔离的听己测试服务上完成入库、整理、洗版、刮削写回、标签修正与撤销的自动化验证。系统最低版本来自安装包声明，本轮未覆盖所有最低系统、设备与 NAS 组合。
 
 本轮完整功能与修复见 [更新说明](CHANGELOG.md)，中间版本见 [逐版历史记录](HISTORY.md)。历史条目不附旧IPA；旧版原始包及调试符号仅在私有仓库归档。公开安装包须经过商业加固核验，调试符号不公开。
 
@@ -43,6 +43,7 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 - **音效与统一响度**：十款预设与低频、高频、声场宽度、混响微调；统一响度依据回放增益或 Plex 响度分析。
 - **本机音乐**：缓存曲目、本地歌单、头像封面、排序与下载管理；手机支持文件夹曲库、长按多选、批量导出和清理删除。
 - **推荐与报告**：每日推荐、好久没听、时段常听和听歌报告；手机可配对部署在 NAS 上的「听己 · AI音乐助理」，获取基于声音与歌词特征的推荐、歌单和听歌画像。
+- **听己联动**：配对自己部署在 NAS 上的听己后，在线入库、歌单补全、整理、洗版、刮削写回和标签修正由听己在 NAS 内完成，可撤销；数据只在设备与你自己的 NAS 之间传输，同步内容默认全部关闭。电视也可配对，播放在线歌曲时入库到 NAS。
 - **Pro 功能**：多库合并、频谱背景、在线发现、曲库管家；手机可预览更高音质候选并执行备份替换与撤销。
 
 ## 授权与音乐内容
