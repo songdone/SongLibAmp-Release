@@ -1,6 +1,6 @@
 # 版本沿革
 
-2026-10-17 更新。当前推荐安装包为[手机 1.3.11／TV 1.9.19](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.19-iOS-1.3.11)。中间版本仅保留记录，不提供公开安装包。
+2026-11-27 更新。当前推荐安装包为[TV 1.9.20／手机 1.3.11](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.20-iOS-1.3.11)。中间版本仅保留记录，不提供公开安装包。
 
 独立历史条目不附安装包；已公开的稳定组合版本保留原发行资产，可核验的中间版本原始 IPA 及符号在私有源码仓库按版本归档。手机 0.4.10–0.4.13、1.0.1、1.0.3、1.0.4 的已知故障均保留记录。手机 1.0.6–1.0.10 经后续复测，确认仅留声主题开启启动动画后存在顶部与状态栏重叠，关闭启动动画后正常；这些问题版本不提供公开安装包，修复已在 1.0.11 获用户真机确认。
 
@@ -93,4 +93,5 @@
 | [iOS 1.3.11](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.19-iOS-1.3.11) | 80 | 2026-10-17 | 封面缓存复用、留声贴图恢复与音效面板收纳 | 当前推荐 |
 | tvOS 1.9.17 | 85 | 2026-10-17 | 封面缓存、补边和播放选项状态 | 历史记录，无公开安装包 |
 | tvOS 1.9.18 | 86 | 2026-10-17 | 原按钮尺寸、弹性主题对齐和封面补全入口 | 历史记录，无公开安装包 |
-| [tvOS 1.9.19](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.19-iOS-1.3.11) | 87 | 2026-10-17 | 列表与全屏歌词底部小封面统一去补边 | 当前推荐 |
+| [tvOS 1.9.19](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.19-iOS-1.3.11) | 87 | 2026-10-17 | 列表与全屏歌词底部小封面统一去补边 | 已公开的历史组合 |
+| [tvOS 1.9.20](https://github.com/songdone/SongLibAmp-Release/releases/tag/tvOS-1.9.20-iOS-1.3.11) | 111 | 2026-11-27 | 纯 LGPL FFmpeg 9.0.2 软解与 SACD ISO、跨曲无缝播放与专业 DSP、全样式双语歌词、WebDAV 深度增强与按文件夹浏览、四向满宽焦点、合规开放图源与曲库管家精准补全 | 当前推荐 |

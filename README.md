@@ -12,8 +12,8 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 | 平台 | 当前版本 | 系统要求 | 下载 |
 | --- | --- | --- | --- |
-| Apple TV | 1.9.19（87） | tvOS 18 及以上 | [SongLibAmp-tvOS-1.9.19.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.19-iOS-1.3.11/SongLibAmp-tvOS-1.9.19.ipa) |
-| iPhone | 1.3.11（80） | iOS 16.4 及以上 | [SongLibAmp-iOS-1.3.11.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.19-iOS-1.3.11/SongLibAmp-iOS-1.3.11.ipa) |
+| Apple TV | 1.9.20（111） | tvOS 18 及以上 | [SongLibAmp-tvOS-1.9.20.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.20-iOS-1.3.11/SongLibAmp-tvOS-1.9.20.ipa) |
+| iPhone | 1.3.11（80） | iOS 16.4 及以上 | [SongLibAmp-iOS-1.3.11.ipa](https://github.com/songdone/SongLibAmp-Release/releases/download/tvOS-1.9.20-iOS-1.3.11/SongLibAmp-iOS-1.3.11.ipa) |
 
 两端均为**未签名 IPA**，需要自行签名后安装。按官网教程操作，需要 Mac、Xcode 和自己的 Apple ID；免费 Apple ID 的签名到期后需要重新签名并覆盖安装。
 
@@ -21,7 +21,7 @@ Apple TV 与 iPhone 私人音乐播放器，连接自己的 NAS 曲库，原格�
 
 安装包统一通过本仓库的 GitHub Releases 下载。手机 1.0.3、1.0.4 存在启动问题；1.0.6–1.0.10 在留声主题开启启动动画后存在顶部与状态栏重叠问题。这些问题版本只保留历史记录，不提供安装包；请使用最新版。
 
-本次汇总听己入口与歌单、在线连续播放、封面缓存、日志和曲库管家改进。双端安装包已通过身份、完整性与商业配置核验；各项验证的范围和未完成项见[更新说明](CHANGELOG.md#安装与验证范围)。最低系统来自包内声明，不代表所有设备和 NAS 组合均已验证。
+本次正式发布 Apple TV `1.9.20 (111)`（升级纯 LGPL FFmpeg 9.0.2 软解与 SACD ISO、跨曲无缝播放与专业 DSP、全样式双语歌词、WebDAV 深度增强、四向满宽焦点、合规开放图源与曲库管家精准补全）；iPhone 端保持 `1.3.11 (80)` 原包不变。详细验证范围见[更新说明](CHANGELOG.md#安装与验证范围)。
 
 本轮完整功能与修复见 [更新说明](CHANGELOG.md)，中间版本见 [逐版历史记录](HISTORY.md)。历史条目不附旧IPA；旧版原始包及调试符号仅在私有仓库归档。公开安装包须经过商业加固核验，调试符号不公开。
 
